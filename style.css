@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+
+}
+
+#head{
+    border: 2px solid black;
+    background:linear-gradient(to right, black, red);
+}
+#imagename{
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+#nav{
+    background-color: black;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top:0px;
+}
+ul{
+
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+li{
+    float: left;
+    margin:3px; 
+    text-align: center;
+    display:block; 
+    font-weight:bold;
+    font-size: 14px;
+
+}
+#men{
+    margin-left: 210px;
+}
+a{
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 20px; 
+    text-decoration: none;
+}
+.shoes{
+    padding: 6% 10%;
+    font-size: larger;
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+#header1{
+    background-color:rgba(0,0,0,0.4);
+    width: 800px;
+    height: 140px;
+    padding: 20px;
+    margin:10px;
+}
+#header2{
+    background-color:rgb(178, 175, 175);
+
+}
+.images::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.images1{
+    border: 1px solid gray;
+    float: left;
+    width: 9%;
+    padding: 0px;
+    margin: 0px;
+}
+#imgname{
+    margin: 0px;
+    background-color: rgb(125, 122, 122);
+    color: white;
+    padding: 2px;
+}
+#imageselect{
+    padding: 10px 60px 10px 60px;
+}
+#imagehead{
+    padding: 0px;
+}
+#process{
+    border: 2px solid black;
+    background:linear-gradient(to right, rgb(71, 70, 70),black);
+}
+#processhead{   
+    background: linear-gradient(to right ,black,rgb(210, 74, 74));
+    color: white;
+    padding:10px;
+    margin: 100px 80px 100px 80px;
+    width: 1250px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px rgba(198, 177, 177, 0.5);
+
+}
+#shoes1{
+    position: absolute;
+    right: 10%;
+    top: 110%;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 4px white;
+    
+}
+#shoes1:hover{
+    transform: scale(1.2);
+    margin-top:80px;
+    margin-right:60px;
+}
+#ip{
+    width: 400px;   
+    height: 25px;
+    margin-top:10px;
+    margin-right:0px;
+}
+p{
+    padding:15px;
+    font-size: 16px;
+}
+h1{
+    font-size: 35px;
+    padding: 15px;
+}
